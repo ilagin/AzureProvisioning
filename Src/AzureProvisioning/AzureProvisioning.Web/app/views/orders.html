@@ -1,0 +1,27 @@
+﻿<div class="row">
+    <button ng-click="newOrder()" type="button" class="btn btn-primary">Place Order</button>
+    <br/>
+    <br/>
+    <table class="table table-striped table-bordered table-hover">
+        <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Order Details</th>
+            <th>Active</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr data-ng-repeat="order in orders">
+            <td>
+                {{ order.orderId }}
+            </td>
+            <td>
+                {{ order.orderDetails }}
+            </td>
+            <td>
+                <input type="checkbox" data-ng-model="order.isActive" disabled="disabled">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

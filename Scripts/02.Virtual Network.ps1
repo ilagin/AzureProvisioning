@@ -1,0 +1,1 @@
+Set-AzureVNetConfig -ConfigurationPath "D:\NetworkConfig.netcfg"

@@ -1,0 +1,6 @@
+d:\Projects\AzureProvisioning\AzureProvisioning.Web\bin\AzureProvisioning.Web.dll.config
+d:\Projects\AzureProvisioning\AzureProvisioning.Web\bin\AzureProvisioning.Web.dll
+d:\Projects\AzureProvisioning\AzureProvisioning.Web\bin\AzureProvisioning.Web.pdb
+d:\Projects\AzureProvisioning\AzureProvisioning.Web\obj\Debug\AzureProvisioning.Web.dll
+d:\Projects\AzureProvisioning\AzureProvisioning.Web\obj\Debug\AzureProvisioning.Web.pdb
+d:\Projects\AzureProvisioning\AzureProvisioning.Web\obj\Debug\AzureProvisioning.Web.csprojResolveAssemblyReference.cache

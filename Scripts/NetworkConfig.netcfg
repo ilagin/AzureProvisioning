@@ -1,0 +1,17 @@
+<NetworkConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/ServiceHosting/2011/07/NetworkConfiguration">
+  <VirtualNetworkConfiguration>
+    <Dns />
+    <VirtualNetworkSites>
+      <VirtualNetworkSite name="MyVirtualNetwork" Location="North Europe">
+        <AddressSpace>
+          <AddressPrefix>10.0.0.1/26</AddressPrefix>
+        </AddressSpace>
+        <Subnets>
+          <Subnet name="Subnet1">
+            <AddressPrefix>10.0.0.1/26</AddressPrefix>
+          </Subnet>
+        </Subnets>
+      </VirtualNetworkSite>
+    </VirtualNetworkSites>
+  </VirtualNetworkConfiguration>
+</NetworkConfiguration>

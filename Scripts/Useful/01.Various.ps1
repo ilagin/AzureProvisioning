@@ -1,0 +1,1 @@
+Get-AzureVMImage | Where-Object {$_.ImageName -like "*windows*"} | Select ImageName
